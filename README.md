@@ -6,7 +6,7 @@ public static class Holder
     public Transform[][] T;
     
     public void Initialize();
-    public void clear(params int[] counts);
+    public void destroy(params int[] counts);
 }
 
 
